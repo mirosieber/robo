@@ -1,0 +1,10 @@
+<library path="hardware">
+  <class
+    name="robo_control/Hardware"
+    type="robo_control::Hardware"
+    base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Robo hardware interface
+    </description>
+  </class>
+</library>

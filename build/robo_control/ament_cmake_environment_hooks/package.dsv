@@ -1,0 +1,4 @@
+source;share/robo_control/local_setup.bash
+source;share/robo_control/local_setup.dsv
+source;share/robo_control/local_setup.sh
+source;share/robo_control/local_setup.zsh

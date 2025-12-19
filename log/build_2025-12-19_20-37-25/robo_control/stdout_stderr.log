@@ -1,0 +1,37 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/hardware.dir/src/hardware.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libhardware.so[0m
+[100%] Built target hardware
+-- Install configuration: ""
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/hardware.xml
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/launch
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/launch/control.launch.py
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/launch/control_no_rviz.launch.py
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/urdf
+-- Installing: /home/user/robo/install/robo_control/share/robo_control/urdf/robo.urdf
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/config
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/config/controllers.yaml
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/rviz
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/rviz/robo.rviz
+-- Installing: /home/user/robo/install/robo_control/lib/libhardware.so
+-- Set runtime path of "/home/user/robo/install/robo_control/lib/libhardware.so" to ""
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/hardware.xml
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/environment/library_path.sh
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/environment/library_path.dsv
+-- Up-to-date: /home/user/robo/install/robo_control/share/ament_index/resource_index/package_run_dependencies/robo_control
+-- Up-to-date: /home/user/robo/install/robo_control/share/ament_index/resource_index/parent_prefix_path/robo_control
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/environment/path.sh
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/environment/path.dsv
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/local_setup.bash
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/local_setup.sh
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/local_setup.zsh
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/local_setup.dsv
+-- Installing: /home/user/robo/install/robo_control/share/robo_control/package.dsv
+-- Up-to-date: /home/user/robo/install/robo_control/share/ament_index/resource_index/packages/robo_control
+-- Up-to-date: /home/user/robo/install/robo_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/robo_control
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/cmake/robo_controlConfig.cmake
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/cmake/robo_controlConfig-version.cmake
+-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/package.xml

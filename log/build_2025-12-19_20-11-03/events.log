@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.000216] (robo_control) JobQueued: {'identifier': 'robo_control', 'dependencies': OrderedDict()}
+[0.000283] (robo_control) JobStarted: {'identifier': 'robo_control'}
+[0.013275] (robo_control) JobProgress: {'identifier': 'robo_control', 'progress': 'cmake'}
+[0.014037] (robo_control) JobProgress: {'identifier': 'robo_control', 'progress': 'build'}
+[0.017679] (robo_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/robo/build/robo_control', '--', '-j4', '-l4'], 'cwd': '/home/user/robo/build/robo_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/user/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/'), ('USER', 'user'), ('LC_TIME', 'de_CH.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/user/snap/code/common/.cache/gio-modules'), ('ROS_PACKAGE_PATH', ':/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/:/home/user/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/215/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/robo/install/robo_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/user/robo'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/215/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/user/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/215/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_CH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/215/usr/share/code/code'), ('MANAGERPID', '1073'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1316'), ('BUNDLED_DEBUGPY_PATH', '/home/user/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3114'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/robo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('JOURNAL_STREAM', '8:19283'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/user/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/user/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/user/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu22VM:@/tmp/.ICE-unix/1283,unix/ubuntu22VM:/tmp/.ICE-unix/1283'), ('GTK_EXE_PREFIX', '/snap/code/215/usr'), ('INVOCATION_ID', '2cabcf2c8f704ef59f94733a406d671d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/215/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/user/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5cb53b35a32b26b2.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/user/.config/Code/User/workspaceStorage/806f7a075362fd3098c22882aed42259/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/user/snap/code/215/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QX9QH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-361b694460.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/user/snap/code/215/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/user/robo/install/robo_control:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/robo/build/robo_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/user/snap/code/215/.local/share:/home/user/snap/code/215:/snap/code/215/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/robo/install/robo_control:/opt/ros/humble')]), 'shell': False}
+[0.083066] (robo_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099546] (-) TimerEvent: {}
+[0.200229] (-) TimerEvent: {}
+[0.259807] (robo_control) StdoutLine: {'line': b'-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.293755] (robo_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.296538] (robo_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.300397] (-) TimerEvent: {}
+[0.303784] (robo_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.314386] (robo_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.332473] (robo_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.376099] (robo_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.379815] (robo_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400582] (-) TimerEvent: {}
+[0.501080] (-) TimerEvent: {}
+[0.517079] (robo_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.580075] (robo_control) StdoutLine: {'line': b'-- Found controller_interface: 2.52.2 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[0.601218] (-) TimerEvent: {}
+[0.701813] (-) TimerEvent: {}
+[0.740735] (robo_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.801976] (-) TimerEvent: {}
+[0.831575] (robo_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.833414] (robo_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.833550] (robo_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.833634] (robo_control) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.837406] (robo_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.837588] (robo_control) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.837701] (robo_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.837778] (robo_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.837836] (robo_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.839684] (robo_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.861746] (robo_control) StdoutLine: {'line': b'-- Generating done\n'}
+[0.872989] (robo_control) StdoutLine: {'line': b'-- Build files have been written to: /home/user/robo/build/robo_control\n'}
+[0.902152] (-) TimerEvent: {}
+[0.925722] (robo_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target hardware\x1b[0m\n'}
+[0.964390] (robo_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hardware.dir/src/hardware.cpp.o\x1b[0m\n'}
+[1.002264] (-) TimerEvent: {}
+[1.103251] (-) TimerEvent: {}
+[1.206873] (-) TimerEvent: {}
+[1.307452] (-) TimerEvent: {}
+[1.408107] (-) TimerEvent: {}
+[1.508891] (-) TimerEvent: {}
+[1.609753] (-) TimerEvent: {}
+[1.710423] (-) TimerEvent: {}
+[1.811268] (-) TimerEvent: {}
+[1.911840] (-) TimerEvent: {}
+[2.012456] (-) TimerEvent: {}
+[2.112995] (-) TimerEvent: {}
+[2.213413] (-) TimerEvent: {}
+[2.313932] (-) TimerEvent: {}
+[2.414655] (-) TimerEvent: {}
+[2.515413] (-) TimerEvent: {}
+[2.616078] (-) TimerEvent: {}
+[2.716478] (-) TimerEvent: {}
+[2.817081] (-) TimerEvent: {}
+[2.917601] (-) TimerEvent: {}
+[3.018050] (-) TimerEvent: {}
+[3.118631] (-) TimerEvent: {}
+[3.219199] (-) TimerEvent: {}
+[3.319667] (-) TimerEvent: {}
+[3.420278] (-) TimerEvent: {}
+[3.520787] (-) TimerEvent: {}
+[3.621201] (-) TimerEvent: {}
+[3.721613] (-) TimerEvent: {}
+[3.822132] (-) TimerEvent: {}
+[3.922914] (-) TimerEvent: {}
+[4.023747] (-) TimerEvent: {}
+[4.124524] (-) TimerEvent: {}
+[4.225374] (-) TimerEvent: {}
+[4.326663] (-) TimerEvent: {}
+[4.427336] (-) TimerEvent: {}
+[4.528090] (-) TimerEvent: {}
+[4.629405] (-) TimerEvent: {}
+[4.730142] (-) TimerEvent: {}
+[4.830865] (-) TimerEvent: {}
+[4.931470] (-) TimerEvent: {}
+[5.033504] (-) TimerEvent: {}
+[5.127898] (robo_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libhardware.so\x1b[0m\n'}
+[5.133679] (-) TimerEvent: {}
+[5.234197] (-) TimerEvent: {}
+[5.334581] (-) TimerEvent: {}
+[5.376805] (robo_control) StdoutLine: {'line': b'[100%] Built target hardware\n'}
+[5.393892] (robo_control) CommandEnded: {'returncode': 0}
+[5.394459] (robo_control) JobProgress: {'identifier': 'robo_control', 'progress': 'install'}
+[5.405922] (robo_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/robo/build/robo_control'], 'cwd': '/home/user/robo/build/robo_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', ':/home/user/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/'), ('USER', 'user'), ('LC_TIME', 'de_CH.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/user/snap/code/common/.cache/gio-modules'), ('ROS_PACKAGE_PATH', ':/your/path/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/:/home/user/ackermann_sim/src/ackermann-vehicle-gzsim-ros2/'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/215/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/robo/install/robo_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/user/robo'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/215/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/user/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/215/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_CH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/215/usr/share/code/code'), ('MANAGERPID', '1073'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1316'), ('BUNDLED_DEBUGPY_PATH', '/home/user/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3114'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/robo/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('JOURNAL_STREAM', '8:19283'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/user/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/user/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/user/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu22VM:@/tmp/.ICE-unix/1283,unix/ubuntu22VM:/tmp/.ICE-unix/1283'), ('GTK_EXE_PREFIX', '/snap/code/215/usr'), ('INVOCATION_ID', '2cabcf2c8f704ef59f94733a406d671d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/215/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/user/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-5cb53b35a32b26b2.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/user/.config/Code/User/workspaceStorage/806f7a075362fd3098c22882aed42259/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/user/snap/code/215/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QX9QH3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-361b694460.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/user/snap/code/215/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/user/robo/install/robo_control:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/robo/build/robo_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/user/snap/code/215/.local/share:/home/user/snap/code/215:/snap/code/215/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/robo/install/robo_control:/opt/ros/humble')]), 'shell': False}
+[5.416247] (robo_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.416454] (robo_control) StdoutLine: {'line': b'-- Installing: /home/user/robo/install/robo_control/share/robo_control/hardware.xml\n'}
+[5.416997] (robo_control) StdoutLine: {'line': b'-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/launch\n'}
+[5.417139] (robo_control) StdoutLine: {'line': b'-- Installing: /home/user/robo/install/robo_control/share/robo_control/launch/control.launch.py\n'}
+[5.417202] (robo_control) StdoutLine: {'line': b'-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/urdf\n'}
+[5.417259] (robo_control) StdoutLine: {'line': b'-- Installing: /home/user/robo/install/robo_control/share/robo_control/urdf/robo.urdf\n'}
+[5.417314] (robo_control) StdoutLine: {'line': b'-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/config\n'}
+[5.417367] (robo_control) StdoutLine: {'line': b'-- Installing: /home/user/robo/install/robo_control/share/robo_control/config/controllers.yaml\n'}
+[5.417721] (robo_control) StdoutLine: {'line': b'-- Installing: /home/user/robo/install/robo_control/lib/libhardware.so\n'}
+[5.418847] (robo_control) StdoutLine: {'line': b'-- Set runtime path of "/home/user/robo/install/robo_control/lib/libhardware.so" to ""\n'}
+[5.419090] (robo_control) StdoutLine: {'line': b'-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/hardware.xml\n'}
+[5.419179] (robo_control) StdoutLine: {'line': b'-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/environment/library_path.sh\n'}
+[5.419239] (robo_control) StdoutLine: {'line': b'-- Installing: /home/user/robo/install/robo_control/share/robo_control/environment/library_path.dsv\n'}
+[5.419683] (robo_control) StdoutLine: {'line': b'-- Up-to-date: /home/user/robo/install/robo_control/share/ament_index/resource_index/package_run_dependencies/robo_control\n'}
+[5.419786] (robo_control) StdoutLine: {'line': b'-- Installing: /home/user/robo/install/robo_control/share/ament_index/resource_index/parent_prefix_path/robo_control\n'}
+[5.419857] (robo_control) StdoutLine: {'line': b'-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/environment/ament_prefix_path.sh\n'}
+[5.419915] (robo_control) StdoutLine: {'line': b'-- Installing: /home/user/robo/install/robo_control/share/robo_control/environment/ament_prefix_path.dsv\n'}
+[5.420103] (robo_control) StdoutLine: {'line': b'-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/environment/path.sh\n'}
+[5.420253] (robo_control) StdoutLine: {'line': b'-- Installing: /home/user/robo/install/robo_control/share/robo_control/environment/path.dsv\n'}
+[5.420330] (robo_control) StdoutLine: {'line': b'-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/local_setup.bash\n'}
+[5.421781] (robo_control) StdoutLine: {'line': b'-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/local_setup.sh\n'}
+[5.421891] (robo_control) StdoutLine: {'line': b'-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/local_setup.zsh\n'}
+[5.421952] (robo_control) StdoutLine: {'line': b'-- Installing: /home/user/robo/install/robo_control/share/robo_control/local_setup.dsv\n'}
+[5.422009] (robo_control) StdoutLine: {'line': b'-- Installing: /home/user/robo/install/robo_control/share/robo_control/package.dsv\n'}
+[5.422063] (robo_control) StdoutLine: {'line': b'-- Up-to-date: /home/user/robo/install/robo_control/share/ament_index/resource_index/packages/robo_control\n'}
+[5.422131] (robo_control) StdoutLine: {'line': b'-- Up-to-date: /home/user/robo/install/robo_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/robo_control\n'}
+[5.422185] (robo_control) StdoutLine: {'line': b'-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.422240] (robo_control) StdoutLine: {'line': b'-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.422292] (robo_control) StdoutLine: {'line': b'-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/cmake/robo_controlConfig.cmake\n'}
+[5.422345] (robo_control) StdoutLine: {'line': b'-- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/cmake/robo_controlConfig-version.cmake\n'}
+[5.422403] (robo_control) StdoutLine: {'line': b'-- Installing: /home/user/robo/install/robo_control/share/robo_control/package.xml\n'}
+[5.423726] (robo_control) CommandEnded: {'returncode': 0}
+[5.435017] (-) TimerEvent: {}
+[5.455503] (robo_control) JobEnded: {'identifier': 'robo_control', 'rc': 0}
+[5.457038] (-) EventReactorShutdown: {}
