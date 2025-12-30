@@ -5,6 +5,8 @@
   <ros2_control name="RoboSystem" type="system">
     <hardware>
       <plugin>robo_control/Hardware</plugin>
+      <param name="steer_servo_pin">12</param>
+      <param name="drive_motor_pin">13</param>
     </hardware>
 
     <!-- Single drive joint (controls all wheels) -->
