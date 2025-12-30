@@ -3,6 +3,7 @@
 #include "hardware_interface/types/hardware_interface_return_values.hpp"
 #include "pluginlib/class_list_macros.hpp"
 #include "rclcpp/rclcpp.hpp"
+#include "rclcpp_lifecycle/state.hpp"
 
 #include <pigpio.h>
 #include <iostream>
@@ -58,7 +59,7 @@ public:
   }
 
   hardware_interface::CallbackReturn on_shutdown(
-    const rclcpp::State & /*previous_state*/) override
+    const rclcpp_lifecycle::State & /*previous_state*/) override
   { 
     closeGPIO();
     return hardware_interface::CallbackReturn::SUCCESS;
