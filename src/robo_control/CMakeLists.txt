@@ -41,6 +41,14 @@ install(
   DESTINATION share/${PROJECT_NAME}
 )
 
+install(
+  PROGRAMS
+    scripts/simple_odom.py
+    scripts/figure8.py
+    scripts/odom_to_path.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 install(TARGETS hardware
   DESTINATION lib
 )

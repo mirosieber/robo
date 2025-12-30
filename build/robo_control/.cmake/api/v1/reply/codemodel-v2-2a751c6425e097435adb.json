@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-bc34695d2a557ffcd50b.json",
+					"jsonFile" : "directory-.-a997a256ab4c6c4adb71.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "hardware::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hardware-ca80064f9dbb6e7536fb.json",
+					"jsonFile" : "target-hardware-aa7320ca665ef2b4ddd5.json",
 					"name" : "hardware",
 					"projectIndex" : 0
 				},

@@ -1,15 +1,13 @@
 Panels:
   - Class: rviz_common/Displays
-    Help Height: 78
+    Help Height: 0
     Name: Displays
     Property Tree Widget:
       Expanded:
         - /Global Options1
-        - /Status1
-        - /RobotModel1
-        - /TF1
+        - /Path1
       Splitter Ratio: 0.5
-    Tree Height: 549
+    Tree Height: 222
   - Class: rviz_common/Selection
     Name: Selection
   - Class: rviz_common/Tool Properties
@@ -67,12 +65,22 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        front_wheels:
+        front_left_wheel:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        rear_wheels:
+        front_right_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        rear_left_wheel:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        rear_right_wheel:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -92,27 +100,66 @@ Visualization Manager:
         All Enabled: true
         base_link:
           Value: true
-        front_wheels:
+        front_left_wheel:
           Value: true
-        rear_wheels:
+        front_right_wheel:
           Value: true
-      Marker Scale: 0.3
+        odom:
+          Value: true
+        rear_left_wheel:
+          Value: true
+        rear_right_wheel:
+          Value: true
+      Marker Scale: 0.30000001192092896
       Name: TF
       Show Arrows: true
       Show Axes: true
       Show Names: true
       Tree:
-        base_link:
-          front_wheels:
-            {}
-          rear_wheels:
-            {}
+        odom:
+          base_link:
+            front_left_wheel:
+              {}
+            front_right_wheel:
+              {}
+            rear_left_wheel:
+              {}
+            rear_right_wheel:
+              {}
       Update Interval: 0
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz_default_plugins/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        Filter size: 10
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /robot_path
       Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: base_link
+    Fixed Frame: odom
     Frame Rate: 30
   Name: root
   Tools:
@@ -124,6 +171,9 @@ Visualization Manager:
     - Class: rviz_default_plugins/Measure
       Line color: 128; 128; 0
     - Class: rviz_default_plugins/SetInitialPose
+      Covariance x: 0.25
+      Covariance y: 0.25
+      Covariance yaw: 0.06853891909122467
       Topic:
         Depth: 5
         Durability Policy: Volatile
@@ -152,7 +202,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 2.5
+      Distance: 15.325984001159668
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -167,8 +217,64 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.4
+      Pitch: 0.4000000059604645
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.785
-    Saved: ~
+      Yaw: 0.7850000262260437
+    Saved:
+      - Class: rviz_default_plugins/Orbit
+        Distance: 2.5
+        Enable Stereo Rendering:
+          Stereo Eye Separation: 0.05999999865889549
+          Stereo Focal Distance: 1
+          Swap Stereo Eyes: false
+          Value: false
+        Focal Point:
+          X: 0
+          Y: 0
+          Z: 0
+        Focal Shape Fixed Size: true
+        Focal Shape Size: 0.05000000074505806
+        Invert Z Axis: false
+        Name: Orbit
+        Near Clip Distance: 0.009999999776482582
+        Pitch: 0.4000000059604645
+        Target Frame: <Fixed Frame>
+        Value: Orbit (rviz)
+        Yaw: 0.7850000262260437
+      - Class: rviz_default_plugins/Orbit
+        Distance: 15.325984001159668
+        Enable Stereo Rendering:
+          Stereo Eye Separation: 0.05999999865889549
+          Stereo Focal Distance: 1
+          Swap Stereo Eyes: false
+          Value: false
+        Focal Point:
+          X: 0
+          Y: 0
+          Z: 0
+        Focal Shape Fixed Size: true
+        Focal Shape Size: 0.05000000074505806
+        Invert Z Axis: false
+        Name: Orbit
+        Near Clip Distance: 0.009999999776482582
+        Pitch: 0.4000000059604645
+        Target Frame: <Fixed Frame>
+        Value: Orbit (rviz)
+        Yaw: 0.7850000262260437
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 882
+  Hide Left Dock: false
+  Hide Right Dock: true
+  QMainWindow State: 000000ff00000000fd0000000100000000000001cb00000318fc0200000004fb000000100044006900730070006c006100790073010000003d0000011b000000c900fffffffb0000001200530065006c0065006300740069006f006e010000015e000000820000005c00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007301000001e6000000820000005c00fffffffb0000000a00560069006500770073010000026e000000e7000000a400ffffff000004790000031800000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 1610
+  X: 70
+  Y: 27

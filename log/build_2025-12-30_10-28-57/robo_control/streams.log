@@ -1,0 +1,41 @@
+[0.015s] Invoking command in '/home/user/robo/build/robo_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/robo/build/robo_control -- -j4 -l4
+[0.098s] [100%] Built target hardware
+[0.114s] Invoked command in '/home/user/robo/build/robo_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/robo/build/robo_control -- -j4 -l4
+[0.131s] Invoking command in '/home/user/robo/build/robo_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/robo/build/robo_control
+[0.142s] -- Install configuration: ""
+[0.142s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/hardware.xml
+[0.143s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/launch
+[0.143s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/launch/control.launch.py
+[0.143s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/launch/control_no_rviz.launch.py
+[0.143s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/urdf
+[0.143s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/urdf/robo.urdf
+[0.143s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/config
+[0.143s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/config/controllers.yaml
+[0.144s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/rviz
+[0.144s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/rviz/robo.rviz
+[0.144s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/scripts
+[0.144s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/scripts/simple_odom.py
+[0.144s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/scripts/figure8.py
+[0.144s] -- Up-to-date: /home/user/robo/install/robo_control/lib/libhardware.so
+[0.144s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/hardware.xml
+[0.145s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/environment/library_path.sh
+[0.145s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/environment/library_path.dsv
+[0.145s] -- Up-to-date: /home/user/robo/install/robo_control/share/ament_index/resource_index/package_run_dependencies/robo_control
+[0.145s] -- Up-to-date: /home/user/robo/install/robo_control/share/ament_index/resource_index/parent_prefix_path/robo_control
+[0.145s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/environment/ament_prefix_path.sh
+[0.145s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/environment/ament_prefix_path.dsv
+[0.145s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/environment/path.sh
+[0.145s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/environment/path.dsv
+[0.145s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/local_setup.bash
+[0.145s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/local_setup.sh
+[0.145s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/local_setup.zsh
+[0.145s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/local_setup.dsv
+[0.145s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/package.dsv
+[0.145s] -- Up-to-date: /home/user/robo/install/robo_control/share/ament_index/resource_index/packages/robo_control
+[0.146s] -- Up-to-date: /home/user/robo/install/robo_control/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/robo_control
+[0.146s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/cmake/ament_cmake_export_libraries-extras.cmake
+[0.146s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.146s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/cmake/robo_controlConfig.cmake
+[0.146s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/cmake/robo_controlConfig-version.cmake
+[0.146s] -- Up-to-date: /home/user/robo/install/robo_control/share/robo_control/package.xml
+[0.148s] Invoked command in '/home/user/robo/build/robo_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/robo/build/robo_control

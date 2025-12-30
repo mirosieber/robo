@@ -37,14 +37,23 @@ public:
   }
 
   hardware_interface::return_type read(
-    const rclcpp::Time &, const rclcpp::Duration &) override
+    const rclcpp::Time &, const rclcpp::Duration & period) override
   {
+    // Simple integration: velocity -> position for drive joint
+    double dt = period.seconds();
+    drive_pos_ += drive_vel_ * dt;
+    
+    // State values are already exposed via pointers
     return hardware_interface::return_type::OK;
   }
 
   hardware_interface::return_type write(
     const rclcpp::Time &, const rclcpp::Duration &) override
   {
+    // Apply commands to state variables for simulation
+    drive_vel_ = drive_cmd_;
+    steer_pos_ = steer_cmd_;
+    
     return hardware_interface::return_type::OK;
   }
 

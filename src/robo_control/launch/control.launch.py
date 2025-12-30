@@ -3,6 +3,7 @@ from launch_ros.actions import Node
 from launch.actions import ExecuteProcess
 from ament_index_python.packages import get_package_share_directory
 import os
+import sys
 
 def generate_launch_description():
     # Get paths
@@ -10,6 +11,7 @@ def generate_launch_description():
     urdf_file = os.path.join(pkg_share, 'urdf', 'robo.urdf')
     controllers_file = os.path.join(pkg_share, 'config', 'controllers.yaml')
     rviz_config = os.path.join(pkg_share, 'rviz', 'robo.rviz')
+    odom_script = os.path.join(pkg_share, 'scripts', 'simple_odom.py')
     
     # Read URDF
     with open(urdf_file, 'r') as f:
@@ -51,6 +53,22 @@ def generate_launch_description():
         # Spawn steer controller
         ExecuteProcess(
             cmd=['ros2', 'control', 'load_controller', '--set-state', 'active', 'steer_controller'],
+            output='screen'
+        ),
+        
+        # Simple odometry node
+        Node(
+            package='robo_control',
+            executable='simple_odom.py',
+            name='simple_odom',
+            output='screen'
+        ),
+        
+        # Path visualization node
+        Node(
+            package='robo_control',
+            executable='odom_to_path.py',
+            name='odom_to_path',
             output='screen'
         ),
         

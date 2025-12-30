@@ -4,6 +4,9 @@
 /home/user/robo/install/robo_control/share/robo_control/urdf/robo.urdf
 /home/user/robo/install/robo_control/share/robo_control/config/controllers.yaml
 /home/user/robo/install/robo_control/share/robo_control/rviz/robo.rviz
+/home/user/robo/install/robo_control/lib/robo_control/simple_odom.py
+/home/user/robo/install/robo_control/lib/robo_control/figure8.py
+/home/user/robo/install/robo_control/lib/robo_control/odom_to_path.py
 /home/user/robo/install/robo_control/lib/libhardware.so
 /home/user/robo/install/robo_control/share/robo_control/hardware.xml
 /home/user/robo/install/robo_control/share/robo_control/environment/library_path.sh
